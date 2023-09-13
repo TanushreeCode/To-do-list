@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(233, 240, 240);
+    background-color: rgb(149, 197, 197);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -46,4 +46,25 @@ button {
 ul {
     list-style-type: style type none;
     padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+li:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    background-color: #ff4136;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding:5px 10px;
+    
+
+
 }
